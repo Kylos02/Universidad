@@ -1,0 +1,21 @@
+|Practica2
+s0 <= XOR3:ss0.OUT
+b0 => XOR3:ss0.IN3
+b0 => c1-0.IN0
+b0 => c1-2.IN0
+c0 => XOR3:ss0.IN1
+c0 => c1-1.IN1
+c0 => c1-2.IN1
+a0 => XOR3:ss0.IN2
+a0 => c1-0.IN1
+a0 => c1-1.IN0
+c1 <= c1-3.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Practica2|XOR3:ss0
+OUT <= 1.DB_MAX_OUTPUT_PORT_TYPE
+IN1 => 1.IN0
+IN2 => 3.IN0
+IN3 => 3.IN1
+
+

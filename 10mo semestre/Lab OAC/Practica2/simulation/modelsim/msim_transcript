@@ -1,0 +1,113 @@
+# do Practica2_run_msim_gate_vhdl.do
+# if {[file exists gate_work]} {
+# 	vdel -lib gate_work -all
+# }
+# vlib gate_work
+# vmap work gate_work
+# Model Technology ModelSim ALTERA vmap 10.4b Lib Mapping Utility 2015.05 May 27 2015
+# vmap -modelsim_quiet work gate_work 
+# Copying C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:/altera_lite/15.1/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vcom -93 -work work {Practica2_6_1200mv_85c_slow.vho}
+# Model Technology ModelSim ALTERA vcom 10.4b Compiler 2015.05 May 27 2015
+# Start time: 18:55:42 on Sep 20,2025
+# vcom -reportprogress 300 -93 -work work Practica2_6_1200mv_85c_slow.vho 
+# -- Loading package STANDARD
+# -- Loading package TEXTIO
+# -- Loading package std_logic_1164
+# -- Loading package VITAL_Timing
+# -- Loading package VITAL_Primitives
+# -- Loading package cycloneive_atom_pack
+# -- Loading package cycloneive_components
+# -- Compiling entity Practica2
+# -- Compiling architecture structure of Practica2
+# End time: 18:55:42 on Sep 20,2025, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+vsim work.practica2
+# vsim work.practica2 
+# Start time: 19:01:09 on Sep 20,2025
+# Loading std.standard
+# Loading std.textio(body)
+# Loading ieee.std_logic_1164(body)
+# Loading ieee.vital_timing(body)
+# Loading ieee.vital_primitives(body)
+# Loading cycloneive.cycloneive_atom_pack(body)
+# Loading cycloneive.cycloneive_components
+# Loading work.practica2(structure)
+# Loading ieee.std_logic_arith(body)
+# Loading cycloneive.cycloneive_io_obuf(arch)
+# Loading cycloneive.cycloneive_io_ibuf(arch)
+# Loading cycloneive.cycloneive_lcell_comb(vital_lcell_comb)
+add wave -position end  sim:/practica2/s0
+add wave -position end  sim:/practica2/b0
+add wave -position end  sim:/practica2/c0
+add wave -position end  sim:/practica2/a0
+add wave -position end  sim:/practica2/c1
+force -freeze sim:/practica2/a0 1 0, 0 {10 ps} -r 20
+force -freeze sim:/practica2/b0 1 0, 0 {20 ps} -r 40
+force -freeze sim:/practica2/c0 1 0, 0 {40 ps} -r 80
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run
+run -continue
+run -continue
+run -continue
+run
+run
+run -all
+# End time: 19:29:13 on Sep 20,2025, Elapsed time: 0:28:04
+# Errors: 0, Warnings: 0

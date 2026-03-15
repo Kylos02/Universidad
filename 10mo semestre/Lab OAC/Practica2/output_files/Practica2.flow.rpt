@@ -1,0 +1,132 @@
+Flow report for Practica2
+Sat Sep 06 15:54:20 2025
+Quartus Prime Version 15.1.0 Build 185 10/21/2015 SJ Lite Edition
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+  8. Flow Messages
+  9. Flow Suppressed Messages
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2015 Altera Corporation. All rights reserved.
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, the Altera Quartus Prime License Agreement,
+the Altera MegaCore Function License Agreement, or other 
+applicable license agreement, including, without limitation, 
+that your use is for the sole purpose of programming logic 
+devices manufactured by Altera and sold by Altera or its 
+authorized distributors.  Please refer to the applicable 
+agreement for further details.
+
+
+
++----------------------------------------------------------------------------------+
+; Flow Summary                                                                     ;
++------------------------------------+---------------------------------------------+
+; Flow Status                        ; Successful - Sat Sep 06 15:54:20 2025       ;
+; Quartus Prime Version              ; 15.1.0 Build 185 10/21/2015 SJ Lite Edition ;
+; Revision Name                      ; Practica2                                   ;
+; Top-level Entity Name              ; Practica2                                   ;
+; Family                             ; Cyclone IV E                                ;
+; Total logic elements               ; 2 / 6,272 ( < 1 % )                         ;
+;     Total combinational functions  ; 2 / 6,272 ( < 1 % )                         ;
+;     Dedicated logic registers      ; 0 / 6,272 ( 0 % )                           ;
+; Total registers                    ; 0                                           ;
+; Total pins                         ; 5 / 92 ( 5 % )                              ;
+; Total virtual pins                 ; 0                                           ;
+; Total memory bits                  ; 0 / 276,480 ( 0 % )                         ;
+; Embedded Multiplier 9-bit elements ; 0 / 30 ( 0 % )                              ;
+; Total PLLs                         ; 0 / 2 ( 0 % )                               ;
+; Device                             ; EP4CE6E22C6                                 ;
+; Timing Models                      ; Final                                       ;
++------------------------------------+---------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 09/06/2025 15:51:24 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Practica2           ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                  ;
++-------------------------------------+------------------------------+---------------+-------------+----------------+
+; Assignment Name                     ; Value                        ; Default Value ; Entity Name ; Section Id     ;
++-------------------------------------+------------------------------+---------------+-------------+----------------+
+; COMPILER_SIGNATURE_ID               ; 450627476631.175719548313068 ; --            ; --          ; --             ;
+; EDA_OUTPUT_DATA_FORMAT              ; Vhdl                         ; --            ; --          ; eda_simulation ;
+; EDA_SIMULATION_TOOL                 ; ModelSim-Altera (VHDL)       ; <None>        ; --          ; --             ;
+; PARTITION_COLOR                     ; 16764057                     ; --            ; --          ; Top            ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING        ; --            ; --          ; Top            ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                       ; --            ; --          ; Top            ;
+; PROJECT_OUTPUT_DIRECTORY            ; output_files                 ; --            ; --          ; --             ;
++-------------------------------------+------------------------------+---------------+-------------+----------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:22     ; 1.0                     ; 4958 MB             ; 00:00:42                           ;
+; Fitter                    ; 00:00:14     ; 1.0                     ; 5234 MB             ; 00:00:07                           ;
+; Assembler                 ; 00:00:02     ; 1.0                     ; 4839 MB             ; 00:00:01                           ;
+; TimeQuest Timing Analyzer ; 00:00:04     ; 1.0                     ; 4908 MB             ; 00:00:03                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4802 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4793 MB             ; 00:00:01                           ;
+; EDA Netlist Writer        ; 00:00:01     ; 1.0                     ; 4797 MB             ; 00:00:01                           ;
+; Total                     ; 00:00:45     ; --                      ; --                  ; 00:00:56                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; LAPTOP-RHNTT9PG  ; Windows 8 ; 6.2        ; x86_64         ;
+; Fitter                    ; LAPTOP-RHNTT9PG  ; Windows 8 ; 6.2        ; x86_64         ;
+; Assembler                 ; LAPTOP-RHNTT9PG  ; Windows 8 ; 6.2        ; x86_64         ;
+; TimeQuest Timing Analyzer ; LAPTOP-RHNTT9PG  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; LAPTOP-RHNTT9PG  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; LAPTOP-RHNTT9PG  ; Windows 8 ; 6.2        ; x86_64         ;
+; EDA Netlist Writer        ; LAPTOP-RHNTT9PG  ; Windows 8 ; 6.2        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Practica2 -c Practica2
+quartus_fit --read_settings_files=off --write_settings_files=off Practica2 -c Practica2
+quartus_asm --read_settings_files=off --write_settings_files=off Practica2 -c Practica2
+quartus_sta Practica2 -c Practica2
+quartus_eda --read_settings_files=off --write_settings_files=off Practica2 -c Practica2
+quartus_eda --gen_testbench --tool=modelsim_oem --format=verilog --write_settings_files=off Practica2 -c Practica2 --vector_source="C:/Users/imano/Documents/Lab. Arqui/Practica 2/Practica2.vwf" --testbench_file="C:/Users/imano/Documents/Lab. Arqui/Practica 2/simulation/qsim/Practica2.vwf.vt"
+quartus_eda --write_settings_files=off --functional=on --flatten_buses=off --simulation=on --tool=modelsim_oem --format=verilog --output_directory="C:/Users/imano/Documents/Lab. Arqui/Practica 2/simulation/qsim/" Practica2 -c Practica2
+
+
+
