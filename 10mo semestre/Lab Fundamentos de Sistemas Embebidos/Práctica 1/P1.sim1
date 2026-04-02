@@ -1,0 +1,57 @@
+<circuit version="1.1.0-SR1" rev="2005" stepSize="1000000" stepsPS="1000000" NLsteps="100000" reaStep="1000000" animate="0" >
+
+<item itemtype="Push" CircId="Push-1" mainComp="false" Show_id="false" Show_Val="false" Pos="-156,-88" rotation="270" hflip="1" vflip="1" label="Push-1" idLabPos="-16,-24" labelrot="0" valLabPos="-16,20" valLabRot="0" Norm_Close="false" Poles="1" />
+
+<item itemtype="MCU" CircId="p16F876-3" mainComp="false" Show_id="true" Show_Val="false" Pos="-96,-100" rotation="0" hflip="1" vflip="1" label="p16F876" idLabPos="-0.595782,-18.8084" labelrot="0" valLabPos="-16,20" valLabRot="0" Frequency="4 MHz" Program="P1.X/dist/default/production/P1.X.production.hex" Auto_Load="false" saveEepr="true" Clk_Out="false" MainMcu="true" SerialMon="-1" />
+
+<item itemtype="Fixed Voltage" CircId="Fixed Voltage-4" mainComp="false" Show_id="false" Show_Val="false" Pos="-156,-140" rotation="90" hflip="1" vflip="1" label="Fixed Voltage-4" idLabPos="-64,-24" labelrot="0" valLabPos="-16,8" valLabRot="0" Voltage="5 V" Out="true" />
+
+<item itemtype="Ground" CircId="Ground-5" mainComp="false" Show_id="false" Show_Val="false" Pos="-156,32" rotation="0" hflip="1" vflip="1" label="Ground-5" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Ground" CircId="Ground-6" mainComp="false" Show_id="false" Show_Val="false" Pos="0,48" rotation="0" hflip="1" vflip="1" label="Ground-6" idLabPos="-16,8" labelrot="0" valLabPos="-16,20" valLabRot="0" />
+
+<item itemtype="Resistor" CircId="Resistor-7" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="-156,-24" rotation="270" hflip="1" vflip="1" label="Resistor-7" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="330 Ω" />
+
+<item itemtype="Resistor" CircId="Resistor-8" mainComp="false" ShowProp="Resistance" Show_id="false" Show_Val="true" Pos="0,0" rotation="270" hflip="1" vflip="1" label="Resistor-8" idLabPos="-16,-24" labelrot="0" valLabPos="-16,6" valLabRot="0" Resistance="330 Ω" />
+
+<item itemtype="Seven Segment" CircId="Seven Segment-12" mainComp="false" Show_id="false" Show_Val="false" Pos="-8,-68" rotation="0" hflip="1" vflip="1" label="Seven Segment-12" idLabPos="20,-44" labelrot="0" valLabPos="-16,20" valLabRot="0" Color="Yellow" NumDisplays="1" Vertical_Pins="false" CommonCathode="true" Threshold="2.4 V" MaxCurrent="20 mA" Resistance="1 Ω" />
+
+<item itemtype="Node" CircId="Node-9" mainComp="false" Pos="-156,-52" />
+
+<item itemtype="Node" CircId="Node-11" mainComp="false" Pos="-156,-116" />
+
+<item itemtype="Connector" uid="Connector-2" startpinid="Resistor-7-lPin" endpinid="Ground-5-Gnd" pointList="-156,-8,-156,16" />
+
+<item itemtype="Connector" uid="Connector-3" startpinid="p16F876-3-PORTA0" endpinid="Node-9-1" pointList="-104,-84,-116,-84,-116,-52,-156,-52" />
+
+<item itemtype="Connector" uid="Connector-4" startpinid="Push-1-pinP0" endpinid="Node-9-0" pointList="-156,-72,-156,-52" />
+
+<item itemtype="Connector" uid="Connector-5" startpinid="Node-9-2" endpinid="Resistor-7-rPin" pointList="-156,-52,-156,-40" />
+
+<item itemtype="Connector" uid="Connector-11" startpinid="p16F876-3-MCLR" endpinid="Node-11-1" pointList="-104,-92,-116,-92,-116,-116,-156,-116" />
+
+<item itemtype="Connector" uid="Connector-12" startpinid="Fixed Voltage-4-outnod" endpinid="Node-11-0" pointList="-156,-124,-156,-116" />
+
+<item itemtype="Connector" uid="Connector-13" startpinid="Node-11-2" endpinid="Push-1-switch0pinN" pointList="-156,-116,-156,-104" />
+
+<item itemtype="Connector" uid="Connector-14" startpinid="Seven Segment-12-pin_commona" endpinid="Resistor-8-rPin" pointList="0,-36,0,-16" />
+
+<item itemtype="Connector" uid="Connector-15" startpinid="Resistor-8-lPin" endpinid="Ground-6-Gnd" pointList="0,16,0,32" />
+
+<item itemtype="Connector" uid="Connector-16" startpinid="p16F876-3-PORTB0" endpinid="Seven Segment-12-pin_dot" pointList="-56,-36,-16,-36" />
+
+<item itemtype="Connector" uid="Connector-17" startpinid="p16F876-3-PORTB7" endpinid="Seven Segment-12-pin_a" pointList="-56,-92,-32,-92" />
+
+<item itemtype="Connector" uid="Connector-18" startpinid="Seven Segment-12-pin_b" endpinid="p16F876-3-PORTB6" pointList="-32,-84,-56,-84" />
+
+<item itemtype="Connector" uid="Connector-19" startpinid="p16F876-3-PORTB5" endpinid="Seven Segment-12-pin_c" pointList="-56,-76,-32,-76" />
+
+<item itemtype="Connector" uid="Connector-20" startpinid="Seven Segment-12-pin_d" endpinid="p16F876-3-PORTB4" pointList="-32,-68,-56,-68" />
+
+<item itemtype="Connector" uid="Connector-21" startpinid="p16F876-3-PORTB3" endpinid="Seven Segment-12-pin_e" pointList="-56,-60,-32,-60" />
+
+<item itemtype="Connector" uid="Connector-22" startpinid="Seven Segment-12-pin_f" endpinid="p16F876-3-PORTB2" pointList="-32,-52,-56,-52" />
+
+<item itemtype="Connector" uid="Connector-23" startpinid="p16F876-3-PORTB1" endpinid="Seven Segment-12-pin_g" pointList="-56,-44,-32,-44" />
+
+</circuit>
