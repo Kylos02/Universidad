@@ -1,4 +1,4 @@
-"""# 🎓 Academic Portfolio | Computer Engineering
+# 🎓 Academic Portfolio | Computer Engineering
 
 Welcome to my central university trajectory repository. This space is designed to compile, organize, and preserve the most significant projects, assignments, research papers, and laboratory works that I have developed throughout my studies at the **Faculty of Engineering of the National Autonomous University of Mexico (UNAM)**.
 
@@ -31,4 +31,3 @@ This repository not only reflects the completion of academic credits but also de
 **Faculty of Engineering - UNAM** *Mexico City, Mexico*
 
 </div>
-"""
