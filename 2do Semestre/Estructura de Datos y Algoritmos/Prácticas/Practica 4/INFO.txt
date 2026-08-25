@@ -1,0 +1,47 @@
+Nombre: Alfredo Dominguez Perez
+Edad: 45
+Fecha de nacimiento: 11/10/1996
+Tipo de sangre: A+
+Genero: Masculino
+Nacionalidad: Mexicana
+Entidad de nacimiento: Chiapas
+CURP: DOPA961011HCSMRL01
+RFC: DOPA961011LK8
+Ultimo grado de estudios: 3er grado de secundaria
+Domicilio: Calle 11, Moctezuma, Tuxtla Gutierrez
+C.P: 29030
+Correo electronico: alfredo.dom1ngu3z@outlook.com
+Num. Telefono: +961 14328593
+Numero de Seguridad Social: 29567382-876-1
+
+Nombre: Fernanda Rodriguez Zamora
+Edad: 19
+Fecha de nacimiento: 25/03/2002
+Tipo de sangre: B-
+Genero: Femenino
+Nacionalidad: Mexicana
+Entidad de nacimiento: CDMX 
+CURP: ROZF020325MDFDMRA2
+RFC: ROZF020325452
+Ultimo grado de estudios: 3er semestre de licenciatura
+Domicilio: Av. 11, San Juan Xalpa, Iztapalapa
+C.P: 09850
+Correo electronico: bebesita.emoxita112@hotmail.com
+Num. Telefono: +56 12227483
+Numero de Seguridad Social: N/A 
+
+Nombre: Jose Hernandez Martinez 
+Edad: 21
+Fecha de nacimiento: 06/10/2000
+Tipo de sangre: O
+Genero: Masculino
+Nacionalidad: Española
+Entidad de nacimiento: Tlaxcala
+CURP: HEMJ001006HTLRRSA2
+RFC: HEM001006DT3
+Ultimo grado de estudios: 7mo semestre de licenciatura
+Domicilio: Av. Manuel Saldana Norte, Xaltantla, Santa Ana Chiautempan
+C.P: 90800
+Correo electronico: XxElCrackxX@yahoo.com
+Num. Telefono: +246 18364923
+Numero de Seguridad Social: 16479854-123-8
